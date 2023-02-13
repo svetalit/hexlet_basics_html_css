@@ -1,0 +1,137 @@
+:root {
+  --blue: #0d6efd;
+  --green: #00b7a1;
+  --gray: #6d757d;
+  --light: #dee2e6;
+  --dark: #212529;
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestRegular.woff");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestLight.woff");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestMedium.woff");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestBold.woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--dark);
+
+  font-size: 16px;
+  font-family: Onest, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.lead {
+
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: center;
+}
+
+/*NAV*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid var(--light);
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+.nav a {
+  color: var(--gray);
+  text-decoration: none;
+}
+/* */
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.gap-8 {
+  gap: 8rem;
+}
+
+.py-4 {
+  padding-left: 4rem;
+}
+
+.text-blue {
+  color: var(--blue);
+}
+.text-white {
+  color: white;
+}
+
+.btn {
+  display: block;
+  padding: 0.4rem 0.7rem;
+
+  border: 1px solid var(--gray);
+  border-radius: 0.45rem;
+  text-decoration: none;
+  width: max-content;
+}
+.btn:hover {
+  background-color: var(--gray);
+  color: white;
+}
+.btn-blue {
+  background-color: var(--blue);
+  color: white;
+  border-color: var(--blue);
+}
+.btn-lg {
+  font-size: 1.25rem;
+}
