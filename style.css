@@ -46,18 +46,10 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-size: 2.5rem;
-  font-weight: 500;
-  line-height: 1.2;
-}
-
-.lead {
-
-}
 
 .container {
   width: 1320px;
+
   margin: 0 auto;
   padding: 0 0.75rem;
 }
@@ -92,30 +84,11 @@ h1 {
   color: var(--gray);
   text-decoration: none;
 }
-/* */
-.gap-1 {
-  gap: 1rem;
-}
-.gap-2 {
-  gap: 2rem;
-}
-.gap-8 {
-  gap: 8rem;
-}
 
-.py-4 {
-  padding-left: 4rem;
-}
-
-.text-blue {
-  color: var(--blue);
-}
-.text-white {
-  color: white;
-}
+/*BTN*/
 
 .btn {
-  display: block;
+  display: inline-block;
   padding: 0.4rem 0.7rem;
 
   border: 1px solid var(--gray);
@@ -123,7 +96,7 @@ h1 {
   text-decoration: none;
   width: max-content;
 }
-.btn:hover {
+.btn-gray:hover {
   background-color: var(--gray);
   color: white;
 }
@@ -134,4 +107,70 @@ h1 {
 }
 .btn-lg {
   font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+}
+
+
+/*Text*/
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.lead {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+/* Atomic CSS*/
+
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-5 {
+  gap: ;
+}
+
+.gap-8 {
+  gap: 8rem;
+}
+
+.py-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.color-white {
+  color: white;
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.align-items-start {
+  align-items: start;
+}
+
+
+.filter-grayscale {
+  filter: grayscale(1);
 }
