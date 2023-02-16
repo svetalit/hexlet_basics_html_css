@@ -110,10 +110,25 @@ body {
   padding: 0.5rem 1rem;
 }
 
+/*Card*/
+
+.card {
+  padding: 2rem 4rem;
+  border-radius: 0.5rem;
+
+  background-color: white;
+}
+
+.card-title {
+  margin: 0 0 0.5rem;
+
+  font-size: 2rem;
+  font-weight: bold;
+}
 
 /*Text*/
 
-h1 {
+h1, .h1 {
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -125,6 +140,10 @@ h1 {
 }
 
 /* Atomic CSS*/
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
 
 .gap-1 {
   gap: 1rem;
@@ -146,12 +165,28 @@ h1 {
   padding-bottom: 4rem;
 }
 
+.pl-0 {
+  padding-left: 0;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
 .color-white {
   color: white;
 }
 
 .text-blue {
   color: var(--blue);
+}
+
+.text-dark {
+  color: var(--dark);
 }
 
 .text-white {
@@ -166,10 +201,17 @@ h1 {
   background-color: var(--blue);
 }
 
+.bg-green {
+  background-color: var(--green);
+}
+
 .align-items-start {
   align-items: start;
 }
 
+.fw-bold {
+  font-weight: bold;
+}
 
 .filter-grayscale {
   filter: grayscale(1);
