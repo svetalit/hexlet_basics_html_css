@@ -139,10 +139,30 @@ h1, .h1 {
   font-weight: 300;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Atomic CSS*/
+
+.w-60 {
+  width: 60%;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
 
 .mb-1 {
   margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
 }
 
 .gap-1 {
@@ -153,7 +173,7 @@ h1, .h1 {
 }
 
 .gap-5 {
-  gap: ;
+  gap: 5rem;
 }
 
 .gap-8 {
@@ -167,6 +187,10 @@ h1, .h1 {
 
 .pl-0 {
   padding-left: 0;
+}
+
+.pl-1 {
+  padding-left: 1rem;
 }
 
 .list-style-none {
@@ -205,6 +229,14 @@ h1, .h1 {
   background-color: var(--green);
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
 .align-items-start {
   align-items: start;
 }
@@ -213,6 +245,18 @@ h1, .h1 {
   font-weight: bold;
 }
 
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
 .filter-grayscale {
   filter: grayscale(1);
+}
+
+.border-left {
+  border-left: 1px solid var(--light);
 }
